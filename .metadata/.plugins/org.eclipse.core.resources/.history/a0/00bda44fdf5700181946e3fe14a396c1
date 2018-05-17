@@ -1,0 +1,39 @@
+package mvc.DTO;
+
+import lombok.Getter;
+import lombok.Setter;
+
+public class Board {
+
+	@Getter
+	@Setter
+	private int board_no;
+	
+	@Getter
+	@Setter
+	private String title;
+	
+	@Getter
+	@Setter
+	private String content;
+	
+	@Getter
+	@Setter
+	private String user_nick;
+	
+	@Getter
+	@Setter
+	private String written_date;
+	
+	@Getter
+	@Setter
+	private int hit;
+	
+	@Getter
+	@Setter
+	private int recommend;
+	
+	@Getter
+	@Setter
+	private int group_no;
+}

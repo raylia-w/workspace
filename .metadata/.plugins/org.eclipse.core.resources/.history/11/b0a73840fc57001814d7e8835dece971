@@ -1,0 +1,14 @@
+package mvc.service;
+
+import java.util.List;
+
+import mvc.DTO.Groups;
+
+public interface GroupService {
+	
+	public Groups getGroupInfo();
+	
+	public List getBoardList();
+	
+	public 
+}

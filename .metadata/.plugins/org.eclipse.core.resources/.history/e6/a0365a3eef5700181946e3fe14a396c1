@@ -1,0 +1,28 @@
+package mvc.service;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class userService {
+	
+	public void boardView() {
+		
+	}
+	
+	public void noticeView() {
+		
+	}
+	
+	public void photoView() {
+		
+	}
+	
+	public void boardWrite() {
+		
+	}
+	
+	public void photoUpload() {
+		
+	}
+	
+}

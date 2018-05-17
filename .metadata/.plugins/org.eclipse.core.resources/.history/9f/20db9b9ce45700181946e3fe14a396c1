@@ -1,0 +1,8 @@
+package mvc.DAO;
+
+public interface MemberDAO {
+
+	public List getMemberList();
+	
+	public 
+}

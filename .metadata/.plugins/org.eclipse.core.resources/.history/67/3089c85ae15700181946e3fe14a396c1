@@ -1,0 +1,6 @@
+package mvc.DAO;
+
+public interface groupDAO {
+
+	
+}

@@ -1,0 +1,8 @@
+package mvc.service;
+
+import mvc.DTO.Groups;
+
+public interface GroupService {
+	
+	public Groups getGroupInfo();
+}

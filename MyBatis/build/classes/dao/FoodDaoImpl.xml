@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dao.FoodDao">
+	<select id="selectByFNo" 
+			parameterType="int"
+			resultType="dto.Food">
+			SELECT * FROM food WHERE f_no = #{fno}
+	</select>
+<!-- 	<select id="selectAll" -->
+<!-- 			parameterType="dto.Dept" -->
+<!-- 			resultType="list"> -->
+<!-- 			SELECT * FROM dept ORDER BY deptno -->
+<!-- 	</select> -->
+<!-- 	<insert id="insertDept"> -->
+<!-- 	</insert> -->
+	<insert id="insert" parameterType="dto.Food">
+		INSERT INTO food(f_no, f_name, f_price)
+		VALUES(#{f_no}, #{f_name}, #{f_price})
+	</insert>
+</mapper>

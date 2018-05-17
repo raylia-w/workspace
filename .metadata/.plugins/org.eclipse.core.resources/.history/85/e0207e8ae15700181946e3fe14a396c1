@@ -1,0 +1,8 @@
+package mvc.DTO;
+
+
+@Data
+public class Group {
+
+	
+}

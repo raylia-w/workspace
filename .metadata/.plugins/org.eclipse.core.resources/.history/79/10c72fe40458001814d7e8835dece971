@@ -1,0 +1,41 @@
+package mvc.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import mvc.service.BoardService;
+
+@Controller
+public class BoardController {
+	
+	@Autowired BoardService service;
+	
+	@RequestMapping(value="/group/board.do")
+	public void groupBoard() {
+		service.getBoardList();
+	}
+	
+	@RequestMapping(value="/group/board/detail.do")
+	public void groupBoardDetail() {
+		service.getBoardView();
+	}
+	
+	@RequestMapping(value="/group/board/write.do")
+	public void groupBoardWrite() {
+		service.boardWrite();
+	}
+	
+	@RequestMapping(value="/group/board/modified.do")
+	
+	@RequestMapping(value="/group/notice.do")
+	public void groupNotice() {
+		
+	}
+	
+	@RequestMapping(value="/group/photo.do")
+	public void groupPhoto() {
+		
+	}
+	
+}

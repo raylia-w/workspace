@@ -1,0 +1,30 @@
+package mvc.service;
+
+public class PayServiceImpl implements PayService{
+
+	@Override
+	public void getPayList() {
+		
+	}
+
+	@Override
+	public void insertPay() {
+		
+	}
+
+	@Override
+	public void deletePay() {
+		
+	}
+
+	@Override
+	public void completePay() {
+		
+	}
+
+	@Override
+	public void refundPay() {
+		
+	}
+
+}

@@ -1,0 +1,15 @@
+package mvc.service;
+
+public interface PayService {
+	
+	public void getPayList();
+	
+	public void insertPay();
+	
+	public void deletePay();
+	
+	public void completePay();
+	
+	public void refundPay();
+	
+}

@@ -1,0 +1,34 @@
+package mvc.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import mvc.service.MeetingService;
+
+@Controller
+public class MeetingController {
+	
+	@Autowired MeetingService service;
+	
+	@RequestMapping(value="/reservation/list")
+	public void resList() {
+		
+	}
+	
+	@RequestMapping(value="/reservation/locList")
+	public void resLocationList() {
+		
+	}
+	
+	@RequestMapping(value="/reservation/complete.do")
+	public void resComplete() {
+		
+	}
+	
+	@RequestMapping(value="/reservation/cancel.do")
+	public void resCancel() {
+		
+	}
+	
+}

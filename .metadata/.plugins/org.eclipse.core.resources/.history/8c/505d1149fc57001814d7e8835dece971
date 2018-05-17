@@ -1,0 +1,25 @@
+package mvc.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import mvc.DAO.GroupDAO;
+import mvc.DTO.Board;
+import mvc.DTO.Groups;
+
+public class GroupServiceImpl implements GroupService{
+
+	@Autowired GroupDAO groupDao;
+	
+	@Override
+	public Groups getGroupInfo() {
+		return groupDao.getGroupInfo();
+	}
+
+	@Override
+	public List getBoardList() {
+		return groupDao.getBoardList();
+	}
+
+}

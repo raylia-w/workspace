@@ -1,0 +1,13 @@
+package mvc.service;
+
+import mvc.DTO.Groups;
+
+public class GroupServiceImpl implements GroupService{
+
+	@Override
+	public Groups getGroupInfo() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

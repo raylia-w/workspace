@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="web.dao.UserDao">
+	<select id="isNew" 
+			parameterType="web.dto.User"
+			resultType="int">
+			SELECT COUNT(*) FROM userTb WHERE id=#{id}
+	</select>
+	<insert id="memberJoin"
+			parameterType="web.dto.User">
+			INSERT INTO userTb (id, pw, email, phone) VALUES (#{id}, #{pw}, #{email}, #{phone})
+	</insert>
+	<select id="isMember"
+			parameterType="web.dto.User"
+			resultType="web.dto.User">
+			SELECT * FROM userTb WHERE id=#{id} AND pw=#{pw}
+	</select>
+</mapper>

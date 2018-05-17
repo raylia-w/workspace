@@ -1,0 +1,12 @@
+package mvc.service;
+
+import mvc.DTO.Board;
+import mvc.DTO.Groups;
+
+public interface GroupService {
+	
+	public Groups getGroupInfo();
+	
+	public Board getBoardList();
+	
+}

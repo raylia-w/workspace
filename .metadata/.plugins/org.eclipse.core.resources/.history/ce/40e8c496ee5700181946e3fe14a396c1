@@ -1,0 +1,16 @@
+package mvc.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class PayController {
+
+	@RequestMapping(value="/pay.do")
+	public void payAPI() {
+		
+	}
+	
+	@RequestMapping(value="/pay/refund.do")
+	
+}

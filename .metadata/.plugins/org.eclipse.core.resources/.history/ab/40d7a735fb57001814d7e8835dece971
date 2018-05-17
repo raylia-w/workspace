@@ -1,0 +1,22 @@
+package mvc.DAO;
+
+import java.util.List;
+
+import mvc.DTO.Groups;
+
+public interface GroupDAO {
+		
+	public List getGroupList();
+	
+	public Groups getGroupInfo();
+
+	public void createGroup();
+	
+	public void deleteGroup();
+	
+	public List getBoardList();
+	
+	public Board getBoardView();
+	
+	
+}

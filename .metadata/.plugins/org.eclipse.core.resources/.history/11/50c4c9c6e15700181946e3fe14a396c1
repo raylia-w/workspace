@@ -1,0 +1,9 @@
+package mvc.DAO;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public interface GroupDAO {
+	
+	@Autowired 
+	
+}

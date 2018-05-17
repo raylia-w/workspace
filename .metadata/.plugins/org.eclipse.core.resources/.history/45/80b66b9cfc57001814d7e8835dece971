@@ -1,0 +1,53 @@
+package mvc.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import mvc.service.GroupService;
+
+@Controller
+public class GroupController {
+	
+	@Autowired GroupService service;
+	
+	@RequestMapping(value="/group/main.do")
+	public void groupMain() {
+		service.getGroupInfo();
+	}
+	
+	@RequestMapping(value="/group/notice.do")
+	public void groupNotice() {
+		
+	}
+	
+	@RequestMapping(value="/group/board.do")
+	public void groupBoard() {
+		service.getBoardList();
+	}
+	
+	@RequestMapping(value="/group/photo.do")
+	public void groupPhoto() {
+		
+	}
+	
+	@RequestMapping(value="/group/chat.do")
+	public void groutChat() {
+		
+	}
+	
+	@RequestMapping(value="/group/manager.do")
+	public void groupManager() {
+		
+	}
+	
+	@RequestMapping(value="/group/list.do")
+	public void groupList() {
+		
+	}
+	
+	@RequestMapping(value="/group/registration.do")
+	public void groupRegistration() {
+		
+	}
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd">
+	<!--  어노테이션 기반의 DI 허용  -->
+	<context:annotation-config/>
+	<!--  Car클래스를 Bean으로 등록  -->
+	<bean id="car" class="di.autowired.Car"/>
+	<!--  GoldTire, SilverTire클래스 Bean으로 등록  -->
+	<bean id="gTire" class="di.tire.GoldTire"/>
+	<bean id="sTire" class="di.tire.SilverTire"/>
+</beans>

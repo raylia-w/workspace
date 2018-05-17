@@ -1,0 +1,13 @@
+package mvc.service;
+
+import mvc.DAO.GroupDAO;
+import mvc.DTO.Groups;
+
+public class GroupServiceImpl implements GroupService{
+
+	@Override
+	public Groups getGroupInfo() {
+		return GroupDAO.getGroupInfo();
+	}
+
+}

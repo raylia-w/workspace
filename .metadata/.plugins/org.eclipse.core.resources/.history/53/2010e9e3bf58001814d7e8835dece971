@@ -1,0 +1,20 @@
+package mvc.service;
+
+public class ResServiceImpl implements ResService{
+
+	@Override
+	public void getResList() {
+		
+	}
+
+	@Override
+	public void insertRes() {
+		
+	}
+
+	@Override
+	public void deleteRes() {
+		
+	}
+
+}

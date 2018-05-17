@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.2" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="mvc.controller.GroupController" project="Final" 
+    file="/Final/src/main/java/mvc/controller/GroupController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="232" width="161" x="537" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="mvc.controller.PayController" project="Final" 
+    file="/Final/src/main/java/mvc/controller/PayController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="142" width="136" x="361" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="mvc.controller.ResController" project="Final" 
+    file="/Final/src/main/java/mvc/controller/ResController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="142" width="148" x="3359" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="4" language="java" name="mvc.DAO.GroupDAO" project="Final" 
+    file="/Final/src/main/java/mvc/DAO/GroupDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="142" width="153" x="1420" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="5" language="java" name="mvc.DAO.MeetingDAO" project="Final" 
+    file="/Final/src/main/java/mvc/DAO/MeetingDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="70" width="120" x="41" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="6" language="java" name="mvc.DAO.MemberDAO" project="Final" 
+    file="/Final/src/main/java/mvc/DAO/MemberDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="142" width="170" x="1613" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="7" language="java" name="mvc.DAO.PaymentDAO" project="Final" 
+    file="/Final/src/main/java/mvc/DAO/PaymentDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="70" width="120" x="201" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="8" language="java" name="mvc.DTO.Blocked_group" project="Final" 
+    file="/Final/src/main/java/mvc/DTO/Blocked_group.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="376" width="178" x="1823" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="mvc.DTO.Board" project="Final" file="/Final/src/main/java/mvc/DTO/Board.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="592" width="186" x="948" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="mvc.DTO.Groups" project="Final" file="/Final/src/main/java/mvc/DTO/Groups.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="538" width="175" x="3144" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="mvc.DTO.Meeting_reservation" project="Final" 
+    file="/Final/src/main/java/mvc/DTO/Meeting_reservation.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="538" width="231" x="2041" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="mvc.DTO.Member" project="Final" file="/Final/src/main/java/mvc/DTO/Member.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="268" width="175" x="2312" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="mvc.DTO.Payment" project="Final" file="/Final/src/main/java/mvc/DTO/Payment.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="970" width="206" x="1174" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="mvc.DTO.Photo" project="Final" file="/Final/src/main/java/mvc/DTO/Photo.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="538" width="195" x="2703" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="15" language="java" name="mvc.service.ManagerService" project="Final" 
+    file="/Final/src/main/java/mvc/service/ManagerService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="178" width="146" x="738" y="1047"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="16" language="java" name="mvc.service.ManagerServiceImpl" project="Final" 
+    file="/Final/src/main/java/mvc/service/ManagerServiceImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="196" width="170" x="738" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="17" language="java" name="mvc.service.MeetingService" project="Final" 
+    file="/Final/src/main/java/mvc/service/MeetingService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="142" width="145" x="3547" y="1047"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="18" language="java" name="mvc.service.MeetingServiceImpl" project="Final" 
+    file="/Final/src/main/java/mvc/service/MeetingServiceImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="160" width="166" x="3547" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="19" language="java" name="mvc.service.PayService" project="Final" 
+    file="/Final/src/main/java/mvc/service/PayService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="122" x="3753" y="1047"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="20" language="java" name="mvc.service.PayServiceImpl" project="Final" 
+    file="/Final/src/main/java/mvc/service/PayServiceImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="142" width="133" x="3753" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="21" language="java" name="mvc.service.ResService" project="Final" 
+    file="/Final/src/main/java/mvc/service/ResService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="122" x="2527" y="1047"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="22" language="java" name="mvc.service.ResServiceImpl" project="Final" 
+    file="/Final/src/main/java/mvc/service/ResServiceImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="142" width="136" x="2527" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="23" language="java" name="mvc.service.UserService" project="Final" 
+    file="/Final/src/main/java/mvc/service/UserService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="196" width="166" x="2938" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <realization id="24">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="17"/>  
+  </realization>  
+  <realization id="25">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="19"/>  
+  </realization>  
+  <realization id="26">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="21"/>  
+  </realization>  
+  <realization id="27">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="15"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

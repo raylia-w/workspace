@@ -1,0 +1,11 @@
+package mvc.DTO;
+
+import lombok.Getter;
+import lombok.Setter;
+
+public class Board {
+
+	@Getter
+	@Setter
+	private int board_no;
+}

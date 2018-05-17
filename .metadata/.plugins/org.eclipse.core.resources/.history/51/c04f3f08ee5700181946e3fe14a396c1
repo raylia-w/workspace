@@ -1,0 +1,25 @@
+package mvc.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class groupController {
+	
+	@RequestMapping(value="/group/main.do")
+	public void groupMain() {
+		
+	}
+	
+	@RequestMapping(value="/group/notice.do")
+	public void groupNotice() {
+		
+	}
+	
+	@RequestMapping(value="/group/board.do")
+	public void groupBoard() {
+		
+	}
+	
+	@RequestMapping(value="")
+}

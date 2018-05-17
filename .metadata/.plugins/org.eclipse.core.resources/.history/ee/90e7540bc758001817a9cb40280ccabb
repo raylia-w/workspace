@@ -1,0 +1,14 @@
+package mvc.DAO;
+
+import java.util.List;
+
+public interface MeetingDAO {
+	
+	public List getMeetingList();
+	
+	public void insertMeeting();
+	
+	public void updateMeeting();
+	
+	public void deleteMeeting();
+}

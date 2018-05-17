@@ -1,0 +1,26 @@
+1526347351155	Delete element
+1526347428237	Rename package 'mvc.DAo'
+1526348440303	Copy file
+1526348466088	Copy file
+1526348639341	Rename type 'groupDAO'
+1526348645637	Rename type 'memberDAO'
+1526348655801	Rename type 'paymentDAO'
+1526348663296	Rename type 'meeting_reservation'
+1526348669410	Rename type 'payment'
+1526348702292	Rename compilation unit 'Group.java'
+1526354187644	Rename resource 'groupDAOImpl.xml'
+1526354192369	Rename resource 'memberDAOImpl.xml'
+1526354197054	Rename resource 'paymentDAOImpl.xml'
+1526354206319	Rename type 'groupController'
+1526354214172	Rename type 'resController'
+1526354902337	Rename type 'payService'
+1526354907635	Rename type 'meetingServiceImpl'
+1526354914762	Rename type 'meetingService'
+1526354918870	Rename type 'managerServiceImpl'
+1526354923239	Rename type 'managerService'
+1526354928155	Rename type 'userService'
+1526354934017	Rename type 'userServiceImpl'
+1526355138007	Delete element
+1526444153429	Rename type 'ResController'
+1526444179660	Delete element
+1526444182083	Delete element

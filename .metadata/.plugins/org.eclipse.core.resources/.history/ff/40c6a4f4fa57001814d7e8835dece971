@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.2.2" icons="true" generate-combined-fragments="true">  
+  <object id="1" language="java" name="mvc.controller.GroupController" project="Final" 
+    file="/Final/src/main/java/mvc/controller/GroupController.java" binary="false" label="groupController" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="171" y="0"/>    
+    <execution id="2">      
+      <position height="72" width="140" x="5" y="136"/>    
+    </execution>    
+    <execution id="5">      
+      <position height="24" width="140" x="5" y="459"/>    
+    </execution>  
+  </object>  
+  <object id="6" language="java" name="mvc.service.GroupService" project="Final" 
+    file="/Final/src/main/java/mvc/service/GroupService.java" binary="false" label="groupService" type="interface" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="254" y="0"/>    
+    <execution id="4">      
+      <position height="24" width="123" x="149" y="160"/>    
+    </execution>    
+    <execution id="7">      
+      <position height="72" width="123" x="149" y="213"/>    
+    </execution>    
+    <execution id="10">      
+      <position height="24" width="123" x="149" y="378"/>    
+    </execution>    
+    <execution id="11">      
+      <position height="72" width="123" x="149" y="435"/>    
+    </execution>  
+  </object>  
+  <object id="13" language="java" name="mvc.DAO.GroupDAO" project="Final" 
+    file="/Final/src/main/java/mvc/DAO/GroupDAO.java" binary="false" label="groupDAO" type="interface" autoSize="true">    
+    <position height="-1" width="-1" x="496" y="0"/>    
+    <execution id="9">      
+      <position height="24" width="100" x="276" y="237"/>    
+    </execution>    
+    <execution id="14">      
+      <position height="72" width="100" x="276" y="354"/>    
+    </execution>  
+  </object>  
+  <message id="3" operation="getGroupInfo():mvc.DTO.Groups" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="8" operation="getGroupInfo():mvc.DTO.Groups" asynchronous="false">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="9"/>  
+  </message>  
+  <message id="12" operation="groupMain():void" asynchronous="false">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="5"/>  
+  </message>  
+  <message id="15" operation="getGroupInfo():mvc.DTO.Groups" asynchronous="false">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="10"/>  
+  </message>
+</sequence-diagram>

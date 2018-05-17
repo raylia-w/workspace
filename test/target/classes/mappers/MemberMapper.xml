@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="web.dao.MemberDAO">
+<!-- 	<resultMap type="web.dto.Member" id="Member"> -->
+<!-- 		<result property="idx" column="idx"/> -->
+<!-- 		<result property="name" column="name"/> -->
+<!-- 		<result property="email" column="email"/> -->
+<!-- 		<result property="phone" column="phone"/> -->
+<!-- 		<result property="joinDate" column="join_date"/> -->
+<!-- 	</resultMap> -->
+	<select id="selectAll"
+			resultType="web.dto.Member">
+			SELECT * FROM member ORDER BY idx
+	</select>
+	<insert id="insert" 
+			parameterType="web.dto.Member">
+			INSERT INTO member(idx, name, email, phone) 
+			VALUES (SEQ_TB_MEMBER_IDX.nextval, #{name}, #{email}, #{phone})		
+	</insert>
+	<delete id="delete"
+			parameterType="web.dto.Member">
+			DELETE FROM member WHERE idx=#{idx}
+	</delete>
+	<update id="update"
+			parameterType="web.dto.Member">
+			UPDATE member SET name=#{name}, email=#{email}, phone=#{phone} WHERE idx=#{idx} 
+	</update>
+	<select id="selectMember"
+			parameterType="web.dto.Member"
+			resultType="web.dto.Member">
+			SELECT * FROM member WHERE 1=1 
+			<if test="idx!=null and idx!=''">AND idx=#{idx} </if> 
+			<if test="name!=null and name!=''">AND name=#{name}</if> 
+			<if test="email!=null and email!=''">AND email=#{email}</if>
+			<if test="phone!=null and phone!=''">AND phone=#{phone}</if>
+	</select>
+</mapper>

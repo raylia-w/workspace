@@ -1,0 +1,16 @@
+package mvc.service;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class managerService {
+
+	public void noticeWrite() {
+		
+	}
+	
+	public void boardMod() {
+		
+	}
+	
+}

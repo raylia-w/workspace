@@ -1,0 +1,8 @@
+package mvc.DTO;
+
+import lombok.Data;
+
+@Data
+public class Member {
+	
+}

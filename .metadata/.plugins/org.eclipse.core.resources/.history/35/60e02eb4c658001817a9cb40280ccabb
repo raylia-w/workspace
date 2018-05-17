@@ -1,0 +1,13 @@
+package mvc.service;
+
+public interface MeetingService {
+
+	public void getMeetingList();
+	
+	public void insertMeeting();
+	
+	public void updateMeeting();
+	
+	public void deleteMeeting();
+	
+}

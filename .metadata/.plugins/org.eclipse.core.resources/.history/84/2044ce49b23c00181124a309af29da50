@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+div#wrapper {
+	width: 1000px;
+	border: 1px solid black;
+	margin: 0 auto;
+}
+
+div#contents {
+	width: 690px;
+	float: right;
+	border: 1px solid blue;
+}
+.clear {
+	height: 0px;
+	clear: both;
+}
+

@@ -1,0 +1,11 @@
+ackage mvc.service;
+
+public interface ResService {
+	
+	public void getResList();
+	
+	public void insertRes();
+	
+	public void deleteRes();
+	
+}

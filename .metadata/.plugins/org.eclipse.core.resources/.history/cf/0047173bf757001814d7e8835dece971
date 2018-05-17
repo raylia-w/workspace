@@ -1,0 +1,6 @@
+package mvc.service;
+
+public interface GroupService {
+	
+	public 
+}

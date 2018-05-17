@@ -1,0 +1,24 @@
+package web.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import web.dao.MemberDAO;
+import web.dto.Member;
+
+@Service
+public class MemberServiceImpl implements MemberService{
+
+	@Autowired MemberDAO memberDAO;
+	
+	@Override
+	public List<Member> getMembers() {
+		
+		//DAO를 통해 조회된 DB 정보 반환
+		
+		return memberDAO.selectAll();
+	}
+
+}

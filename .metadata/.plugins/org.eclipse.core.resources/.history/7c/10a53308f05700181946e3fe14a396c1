@@ -1,0 +1,25 @@
+package mvc.service;
+
+public class meetingServiceImpl implements meetingService{
+
+	@Override
+	public void getMeetingList() {
+		
+	}
+
+	@Override
+	public void insertMeeting() {
+		
+	}
+
+	@Override
+	public void updateMeeting() {
+		
+	}
+
+	@Override
+	public void deleteMeeting() {
+		
+	}
+
+}

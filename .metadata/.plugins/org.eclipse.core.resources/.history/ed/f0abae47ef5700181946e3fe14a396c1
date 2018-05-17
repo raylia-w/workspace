@@ -1,0 +1,6 @@
+package mvc.service;
+
+@Service
+public class managerService {
+
+}

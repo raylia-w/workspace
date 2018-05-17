@@ -1,0 +1,2297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.2" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.siot.IamportRestHttpClientJava.request.CancelData" project="Semi" 
+    file="/Semi/src/com/siot/IamportRestHttpClientJava/request/CancelData.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="304" width="254" x="1754" y="887"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.siot.IamportRestHttpClientJava.request.AuthData" project="Semi" 
+    file="/Semi/src/com/siot/IamportRestHttpClientJava/request/AuthData.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="252" x="1159" y="887"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.siot.IamportRestHttpClientJava.response.IamportResponse" project="Semi" 
+    file="/Semi/src/com/siot/IamportRestHttpClientJava/response/IamportResponse.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="196" width="263" x="2425" y="887"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.siot.IamportRestHttpClientJava.response.Payment" project="Semi" 
+    file="/Semi/src/com/siot/IamportRestHttpClientJava/response/Payment.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="1132" width="263" x="2728" y="887"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.siot.IamportRestHttpClientJava.response.AccessToken" project="Semi" 
+    file="/Semi/src/com/siot/IamportRestHttpClientJava/response/AccessToken.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="160" width="263" x="1451" y="887"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.siot.IamportRestHttpClientJava.App" project="Semi" 
+    file="/Semi/src/com/siot/IamportRestHttpClientJava/App.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="207" x="2003" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.siot.IamportRestHttpClientJava.IamportClient" project="Semi" 
+    file="/Semi/src/com/siot/IamportRestHttpClientJava/IamportClient.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="304" width="380" x="2003" y="543"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="Controller.Main" project="Semi" file="/Semi/src/Controller/Main.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="142" width="337" x="1550" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="Controller.MyPayServlet" project="Semi" 
+    file="/Semi/src/Controller/MyPayServlet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="142" width="337" x="8295" y="887"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="Controller.RefundServlet" project="Semi" 
+    file="/Semi/src/Controller/RefundServlet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="337" x="2425" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="Controller.MyFaqServlet" project="Semi" 
+    file="/Semi/src/Controller/MyFaqServlet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="142" width="337" x="7691" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="Controller.ShopJoin" project="Semi" file="/Semi/src/Controller/ShopJoin.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="572" y="2577"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="Controller.PostServlet" project="Semi" 
+    file="/Semi/src/Controller/PostServlet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="142" width="337" x="5735" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="Controller.ReservationTermsServlet" project="Semi" 
+    file="/Semi/src/Controller/ReservationTermsServlet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="331" x="384" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="Controller.api" project="Semi" file="/Semi/src/Controller/api.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="337" x="2802" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="Controller.InfoPage" project="Semi" file="/Semi/src/Controller/InfoPage.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="331" x="8171" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="Controller.MemberUpdate" project="Semi" 
+    file="/Semi/src/Controller/MemberUpdate.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="337" x="8316" y="543"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="Controller.MemberBoardList" project="Semi" 
+    file="/Semi/src/Controller/MemberBoardList.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="337" x="5354" y="887"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="Controller.MyReviewServlet" project="Semi" 
+    file="/Semi/src/Controller/MyReviewServlet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="142" width="337" x="7511" y="887"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="Controller.resInfo" project="Semi" file="/Semi/src/Controller/resInfo.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="142" width="337" x="9133" y="887"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="Controller.PwHelper" project="Semi" file="/Semi/src/Controller/PwHelper.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="337" x="11703" y="543"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="Controller.BoardList" project="Semi" file="/Semi/src/Controller/BoardList.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="337" x="3052" y="887"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="Controller.MemberJoin" project="Semi" file="/Semi/src/Controller/MemberJoin.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="337" x="11326" y="543"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="Controller.PostBoardList" project="Semi" 
+    file="/Semi/src/Controller/PostBoardList.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="337" x="5731" y="887"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="Controller.MmemberUpdate" project="Semi" 
+    file="/Semi/src/Controller/MmemberUpdate.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="331" x="9070" y="543"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="Controller.LoginCheckServlet" project="Semi" 
+    file="/Semi/src/Controller/LoginCheckServlet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="337" x="10195" y="543"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="Controller.PostDelete" project="Semi" file="/Semi/src/Controller/PostDelete.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="142" width="337" x="5025" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="Controller.IdHelper" project="Semi" file="/Semi/src/Controller/IdHelper.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="337" x="10949" y="543"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="Controller.IDCheckServlet" project="Semi" 
+    file="/Semi/src/Controller/IDCheckServlet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="337" x="9818" y="543"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="Controller.MmemberDelete" project="Semi" 
+    file="/Semi/src/Controller/MmemberDelete.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="142" width="337" x="8693" y="543"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="31" language="java" name="Controller.TopList" project="Semi" file="/Semi/src/Controller/TopList.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="597" y="2815"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="32" language="java" name="Controller.NewMember" project="Semi" file="/Semi/src/Controller/NewMember.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="142" width="337" x="828" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="33" language="java" name="Controller.PaymentBoardList" project="Semi" 
+    file="/Semi/src/Controller/PaymentBoardList.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="337" x="6171" y="887"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="34" language="java" name="Controller.ShopUpdate" project="Semi" file="/Semi/src/Controller/ShopUpdate.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="594" y="3576"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="35" language="java" name="Controller.ManagerLoginCheckServlet" project="Semi" 
+    file="/Semi/src/Controller/ManagerLoginCheckServlet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="142" width="337" x="9441" y="543"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="36" language="java" name="Controller.ShopDelete" project="Semi" file="/Semi/src/Controller/ShopDelete.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="559" y="2374"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="37" language="java" name="Controller.Question" project="Semi" file="/Semi/src/Controller/Question.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="337" x="7190" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="38" language="java" name="Controller.ShopBoardList" project="Semi" 
+    file="/Semi/src/Controller/ShopBoardList.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="506" y="2161"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="39" language="java" name="Controller.MypageServlet" project="Semi" 
+    file="/Semi/src/Controller/MypageServlet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="142" width="337" x="10572" y="543"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="40" language="java" name="Controller.ReservationListServlet" project="Semi" 
+    file="/Semi/src/Controller/ReservationListServlet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="142" width="337" x="4042" y="543"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="41" language="java" name="Controller.ReservationServlet" project="Semi" 
+    file="/Semi/src/Controller/ReservationServlet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="142" width="337" x="4648" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="42" language="java" name="Controller.ShopUpdateExe" project="Semi" 
+    file="/Semi/src/Controller/ShopUpdateExe.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="595" y="2989"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="43" language="java" name="Controller.RefundReqServlet" project="Semi" 
+    file="/Semi/src/Controller/RefundReqServlet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="142" width="337" x="3702" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="44" language="java" name="DAO.ReservationDAO" project="Semi" file="/Semi/src/DAO/ReservationDAO.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="178" width="208" x="4542" y="2059"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="45" language="java" name="DAO.ReservationDAOImpl" project="Semi" 
+    file="/Semi/src/DAO/ReservationDAOImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="322" width="208" x="4542" y="887"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="46" language="java" name="DAO.BoardDaoImpl" project="Semi" file="/Semi/src/DAO/BoardDaoImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="268" width="176" x="3471" y="2059"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="47" language="java" name="DAO.MyPayBoardDaoImpl" project="Semi" file="/Semi/src/DAO/MyPayBoardDaoImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="268" width="176" x="7553" y="2059"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="48" language="java" name="DAO.MemberDAOImpl" project="Semi" file="/Semi/src/DAO/MemberDAOImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="466" width="400" x="8356" y="2059"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="49" language="java" name="DAO.PostDAO" project="Semi" file="/Semi/src/DAO/PostDAO.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="412" width="270" x="6548" y="887"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="50" language="java" name="DAO.PaymentDAOImpl" project="Semi" file="/Semi/src/DAO/PaymentDAOImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="304" width="317" x="3471" y="887"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="51" language="java" name="DAO.ShopBoardDaoImpl" project="Semi" file="/Semi/src/DAO/ShopBoardDaoImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="268" width="176" x="2815" y="2059"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="52" language="java" name="DAO.MemberDAO" project="Semi" file="/Semi/src/DAO/MemberDAO.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="322" width="400" x="8356" y="2565"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="53" language="java" name="DAO.BoardDao" project="Semi" file="/Semi/src/DAO/BoardDao.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="178" width="176" x="5534" y="2565"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="54" language="java" name="DAO.PostBoardDaoImpl" project="Semi" file="/Semi/src/DAO/PostBoardDaoImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="268" width="176" x="5513" y="2059"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="55" language="java" name="DAO.MenuDAO" project="Semi" file="/Semi/src/DAO/MenuDAO.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="88" width="231" x="11868" y="2059"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="56" language="java" name="DAO.ManagerDAO" project="Semi" file="/Semi/src/DAO/ManagerDAO.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="232" width="193" x="8859" y="2059"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="57" language="java" name="DAO.ShopDAO" project="Semi" file="/Semi/src/DAO/ShopDAO.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="580" y="3267"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="58" language="java" name="DAO.MenuDAOImpl" project="Semi" file="/Semi/src/DAO/MenuDAOImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="232" width="231" x="11828" y="887"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="59" language="java" name="DAO.MyReviewBoardDaoImpl" project="Semi" 
+    file="/Semi/src/DAO/MyReviewBoardDaoImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="268" width="197" x="7232" y="2059"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="60" language="java" name="DAO.PaymentBoardDaoImpl" project="Semi" 
+    file="/Semi/src/DAO/PaymentBoardDaoImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="268" width="184" x="6192" y="2059"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="61" language="java" name="DAO.MemberBoardDaoImpl" project="Semi" 
+    file="/Semi/src/DAO/MemberBoardDaoImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="268" width="182" x="5186" y="2059"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="62" language="java" name="DAO.MyFaqBoardDaoImpl" project="Semi" file="/Semi/src/DAO/MyFaqBoardDaoImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="268" width="176" x="6911" y="2059"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="63" language="java" name="DTO.ShowPostDTO" project="Semi" file="/Semi/src/DTO/ShowPostDTO.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="466" width="160" x="112" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="64" language="java" name="DTO.PageDTO" project="Semi" file="/Semi/src/DTO/PageDTO.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="286" width="220" x="6588" y="2059"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="65" language="java" name="DTO.Member" project="Semi" file="/Semi/src/DTO/Member.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="682" width="169" x="8798" y="3341"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="66" language="java" name="DTO.ReservationDTO" project="Semi" file="/Semi/src/DTO/ReservationDTO.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="412" width="181" x="4792" y="2565"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="67" language="java" name="DTO.ShopDTO" project="Semi" file="/Semi/src/DTO/ShopDTO.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="187" y="2885"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="68" language="java" name="DTO.PostDTO" project="Semi" file="/Semi/src/DTO/PostDTO.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="520" width="160" x="6566" y="2565"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="69" language="java" name="DTO.PaymentDTO" project="Semi" file="/Semi/src/DTO/PaymentDTO.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="682" width="190" x="4149" y="2565"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="70" language="java" name="DTO.Reservation" project="Semi" file="/Semi/src/DTO/Reservation.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="304" width="156" x="1279" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="71" language="java" name="DTO.Manager" project="Semi" file="/Semi/src/DTO/Manager.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="196" width="169" x="9073" y="2565"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="72" language="java" name="DTO.MenuDTO" project="Semi" file="/Semi/src/DTO/MenuDTO.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="628" width="159" x="12120" y="2565"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="73" language="java" name="Service.PostSearch" project="Semi" file="/Semi/src/Service/PostSearch.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="142" width="398" x="5417" y="543"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="74" language="java" name="Service.PostList" project="Semi" file="/Semi/src/Service/PostList.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="160" width="459" x="7691" y="543"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="75" language="java" name="Service.PostCommand" project="Semi" file="/Semi/src/Service/PostCommand.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="398" x="4916" y="887"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="76" language="java" name="Service.PostWrite" project="Semi" file="/Semi/src/Service/PostWrite.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="142" width="398" x="7190" y="543"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="77" language="java" name="Service.PostAlter" project="Semi" file="/Semi/src/Service/PostAlter.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="142" width="398" x="5855" y="543"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="78" language="java" name="Service.PostPage" project="Semi" file="/Semi/src/Service/PostPage.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="142" width="398" x="6731" y="543"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="79" language="java" name="Service.PostService" project="Semi" file="/Semi/src/Service/PostService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="167" x="4772" y="543"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="80" language="java" name="Service.ShopService" project="Semi" file="/Semi/src/Service/ShopService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1049" y="2738"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="81" language="java" name="Service.Paging" project="Semi" file="/Semi/src/Service/Paging.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="664" width="156" x="5473" y="3341"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="82" language="java" name="Service.MenuService" project="Semi" file="/Semi/src/Service/MenuService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="231" x="12080" y="543"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="83" language="java" name="Service.PostShop" project="Semi" file="/Semi/src/Service/PostShop.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="142" width="398" x="6293" y="543"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="84" language="java" name="Service.ReservationService" project="Semi" 
+    file="/Semi/src/Service/ReservationService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="142" width="208" x="4231" y="887"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="85" language="java" name="Service.PaymentCommand" project="Semi" 
+    file="/Semi/src/Service/PaymentCommand.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="88" width="279" x="3849" y="887"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="86" language="java" name="Service.PaymentService" project="Semi" 
+    file="/Semi/src/Service/PaymentService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="160" width="279" x="3702" y="543"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="87" language="java" name="Service.MemberCommand" project="Semi" 
+    file="/Semi/src/Service/MemberCommand.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="268" width="400" x="7832" y="2059"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="88" language="java" name="Service.MemberService" project="Semi" file="/Semi/src/Service/MemberService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="304" width="400" x="8693" y="887"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="89" language="java" name="Service.PostDetail" project="Semi" file="/Semi/src/Service/PostDetail.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="142" width="398" x="4979" y="543"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="90" language="java" name="Service.ReservationServiceImpl" project="Semi" 
+    file="/Semi/src/Service/ReservationServiceImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="160" width="208" x="4419" y="543"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <dependency id="91">    
+    <bendpoint x="7759" y="2059"/>    
+    <bendpoint x="7759" y="2565"/>    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="81"/>  
+  </dependency>  
+  <dependency id="92">    
+    <end type="SOURCE" refId="88"/>    
+    <end type="TARGET" refId="48"/>  
+  </dependency>  
+  <dependency id="93">    
+    <bendpoint x="4801" y="887"/>    
+    <bendpoint x="4801" y="2059"/>    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="66"/>  
+  </dependency>  
+  <dependency id="94">    
+    <bendpoint x="8285" y="543"/>    
+    <bendpoint x="8662" y="887"/>    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="48"/>  
+  </dependency>  
+  <dependency id="95">    
+    <bendpoint x="5419" y="2059"/>    
+    <end type="SOURCE" refId="33"/>    
+    <end type="TARGET" refId="69"/>  
+  </dependency>  
+  <dependency id="96">    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="67"/>  
+  </dependency>  
+  <dependency id="97">    
+    <bendpoint x="2585" y="543"/>    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="98">    
+    <bendpoint x="11837" y="2059"/>    
+    <end type="SOURCE" refId="58"/>    
+    <end type="TARGET" refId="72"/>  
+  </dependency>  
+  <dependency id="99">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="100">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="48"/>  
+  </dependency>  
+  <association id="101">    
+    <bendpoint x="8180" y="543"/>    
+    <bendpoint x="7459" y="887"/>    
+    <bendpoint x="7180" y="2059"/>    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="102" name="post">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="103" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="68" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="104">    
+    <end type="SOURCE" refId="34"/>    
+    <end type="TARGET" refId="80"/>  
+  </dependency>  
+  <realization id="105">    
+    <end type="SOURCE" refId="47"/>    
+    <end type="TARGET" refId="53"/>  
+  </realization>  
+  <dependency id="106">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="80"/>  
+  </dependency>  
+  <association id="107">    
+    <bendpoint x="7639" y="543"/>    
+    <bendpoint x="7878" y="887"/>    
+    <end type="SOURCE" refId="41" navigable="false">      
+      <attribute id="108" name="memberComm">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="109" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="87" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="110">    
+    <bendpoint x="6890" y="887"/>    
+    <end type="SOURCE" refId="86"/>    
+    <end type="TARGET" refId="48"/>  
+  </dependency>  
+  <association id="111">    
+    <bendpoint x="9584" y="2059"/>    
+    <bendpoint x="9584" y="2565"/>    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="112" name="m">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="113" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="65" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="114">    
+    <bendpoint x="5841" y="2565"/>    
+    <end type="SOURCE" refId="60"/>    
+    <end type="TARGET" refId="81"/>  
+  </dependency>  
+  <association id="115">    
+    <bendpoint x="9882" y="887"/>    
+    <bendpoint x="9882" y="2059"/>    
+    <bendpoint x="9882" y="2565"/>    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="116" name="m">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="117" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="65" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="118">    
+    <bendpoint x="6406" y="2059"/>    
+    <bendpoint x="6406" y="2565"/>    
+    <end type="SOURCE" refId="33" navigable="false">      
+      <attribute id="119" name="paging">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="120" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="81" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="121">    
+    <end type="SOURCE" refId="74"/>    
+    <end type="TARGET" refId="75"/>  
+  </realization>  
+  <realization id="122">    
+    <end type="SOURCE" refId="58"/>    
+    <end type="TARGET" refId="55"/>  
+  </realization>  
+  <association id="123">    
+    <bendpoint x="7201" y="2059"/>    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="124" name="dao">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="125" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="53" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="126">    
+    <end type="SOURCE" refId="44"/>    
+    <end type="TARGET" refId="67"/>  
+  </dependency>  
+  <association id="127">    
+    <bendpoint x="7801" y="2059"/>    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="128" name="member">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="129" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="52" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="130">    
+    <end type="SOURCE" refId="79"/>    
+    <end type="TARGET" refId="49"/>  
+  </dependency>  
+  <realization id="131">    
+    <end type="SOURCE" refId="54"/>    
+    <end type="TARGET" refId="53"/>  
+  </realization>  
+  <association id="132">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="133" name="mService">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="134" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="82" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="135">    
+    <bendpoint x="9542" y="887"/>    
+    <bendpoint x="9542" y="2059"/>    
+    <bendpoint x="9542" y="2565"/>    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="136" name="m">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="137" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="65" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="138">    
+    <end type="SOURCE" refId="88" navigable="false">      
+      <attribute id="139" name="Manager_dao">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="140" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="56" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="141">    
+    <bendpoint x="5155" y="2059"/>    
+    <bendpoint x="5155" y="2565"/>    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="142" name="paging">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="143" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="81" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="144">    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="145" name="mService">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="146" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="88" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="147">    
+    <end type="SOURCE" refId="90"/>    
+    <end type="TARGET" refId="45"/>  
+  </dependency>  
+  <dependency id="148">    
+    <bendpoint x="4780" y="2059"/>    
+    <end type="SOURCE" refId="45"/>    
+    <end type="TARGET" refId="66"/>  
+  </dependency>  
+  <dependency id="149">    
+    <bendpoint x="4490" y="2059"/>    
+    <end type="SOURCE" refId="84"/>    
+    <end type="TARGET" refId="66"/>  
+  </dependency>  
+  <dependency id="150">    
+    <end type="SOURCE" refId="80"/>    
+    <end type="TARGET" refId="57"/>  
+  </dependency>  
+  <dependency id="151">    
+    <bendpoint x="8201" y="543"/>    
+    <end type="SOURCE" refId="41"/>    
+    <end type="TARGET" refId="88"/>  
+  </dependency>  
+  <dependency id="152">    
+    <bendpoint x="8201" y="887"/>    
+    <bendpoint x="8262" y="2059"/>    
+    <end type="SOURCE" refId="74"/>    
+    <end type="TARGET" refId="52"/>  
+  </dependency>  
+  <realization id="153">    
+    <end type="SOURCE" refId="60"/>    
+    <end type="TARGET" refId="53"/>  
+  </realization>  
+  <dependency id="154">    
+    <end type="SOURCE" refId="54"/>    
+    <end type="TARGET" refId="68"/>  
+  </dependency>  
+  <dependency id="155">    
+    <end type="SOURCE" refId="86"/>    
+    <end type="TARGET" refId="50"/>  
+  </dependency>  
+  <dependency id="156">    
+    <bendpoint x="6869" y="887"/>    
+    <end type="SOURCE" refId="78"/>    
+    <end type="TARGET" refId="64"/>  
+  </dependency>  
+  <association id="157">    
+    <end type="SOURCE" refId="31" navigable="false">      
+      <attribute id="158" name="sService">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="159" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="80" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="160">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="161" name="client">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="162" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="163">    
+    <bendpoint x="5503" y="2565"/>    
+    <end type="SOURCE" refId="54"/>    
+    <end type="TARGET" refId="81"/>  
+  </dependency>  
+  <dependency id="164">    
+    <end type="SOURCE" refId="77"/>    
+    <end type="TARGET" refId="49"/>  
+  </dependency>  
+  <dependency id="165">    
+    <end type="SOURCE" refId="42"/>    
+    <end type="TARGET" refId="67"/>  
+  </dependency>  
+  <association id="166">    
+    <bendpoint x="3419" y="2059"/>    
+    <bendpoint x="3419" y="2565"/>    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="167" name="paging">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="168" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="81" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="169">    
+    <end type="SOURCE" refId="49"/>    
+    <end type="TARGET" refId="64"/>  
+  </dependency>  
+  <association id="170">    
+    <bendpoint x="5461" y="2059"/>    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="171" name="dao">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="172" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="53" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="173">    
+    <bendpoint x="6098" y="887"/>    
+    <bendpoint x="6098" y="2059"/>    
+    <end type="SOURCE" refId="79"/>    
+    <end type="TARGET" refId="68"/>  
+  </dependency>  
+  <dependency id="174">    
+    <bendpoint x="2981" y="2565"/>    
+    <end type="SOURCE" refId="51"/>    
+    <end type="TARGET" refId="81"/>  
+  </dependency>  
+  <dependency id="175">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="67"/>  
+  </dependency>  
+  <dependency id="176">    
+    <end type="SOURCE" refId="42"/>    
+    <end type="TARGET" refId="80"/>  
+  </dependency>  
+  <association id="177">    
+    <bendpoint x="8304" y="2059"/>    
+    <bendpoint x="8304" y="2565"/>    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="178" name="paging">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="179" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="81" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="180">    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="181" name="mService">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="182" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="88" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="183">    
+    <end type="SOURCE" refId="77"/>    
+    <end type="TARGET" refId="75"/>  
+  </realization>  
+  <association id="184">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="185" name="client">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="186" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="187">    
+    <bendpoint x="6140" y="887"/>    
+    <bendpoint x="6140" y="2059"/>    
+    <end type="SOURCE" refId="73"/>    
+    <end type="TARGET" refId="68"/>  
+  </dependency>  
+  <association id="188">    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="189" name="mService">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="190" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="88" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="191">    
+    <end type="SOURCE" refId="64" navigable="false">      
+      <attribute id="192" name="list">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="193" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="68" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="194">    
+    <bendpoint x="4406" y="2059"/>    
+    <end type="SOURCE" refId="45"/>    
+    <end type="TARGET" refId="67"/>  
+  </dependency>  
+  <dependency id="195">    
+    <bendpoint x="6119" y="887"/>    
+    <bendpoint x="6119" y="2059"/>    
+    <end type="SOURCE" refId="89"/>    
+    <end type="TARGET" refId="68"/>  
+  </dependency>  
+  <dependency id="196">    
+    <bendpoint x="9082" y="2059"/>    
+    <end type="SOURCE" refId="88"/>    
+    <end type="TARGET" refId="71"/>  
+  </dependency>  
+  <dependency id="197">    
+    <bendpoint x="4822" y="887"/>    
+    <bendpoint x="4822" y="2059"/>    
+    <end type="SOURCE" refId="90"/>    
+    <end type="TARGET" refId="66"/>  
+  </dependency>  
+  <dependency id="198">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="199">    
+    <bendpoint x="7501" y="2059"/>    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="68"/>  
+  </dependency>  
+  <association id="200">    
+    <end type="SOURCE" refId="29" navigable="false">      
+      <attribute id="201" name="mService">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="202" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="88" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="203">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="76"/>  
+  </dependency>  
+  <dependency id="204">    
+    <bendpoint x="4158" y="887"/>    
+    <bendpoint x="4158" y="2059"/>    
+    <end type="SOURCE" refId="86"/>    
+    <end type="TARGET" refId="69"/>  
+  </dependency>  
+  <realization id="205">    
+    <end type="SOURCE" refId="89"/>    
+    <end type="TARGET" refId="75"/>  
+  </realization>  
+  <dependency id="206">    
+    <bendpoint x="8828" y="2059"/>    
+    <bendpoint x="8828" y="2565"/>    
+    <end type="SOURCE" refId="88"/>    
+    <end type="TARGET" refId="65"/>  
+  </dependency>  
+  <association id="207">    
+    <bendpoint x="3671" y="543"/>    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="208" name="sService">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="209" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="80" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="210">    
+    <end type="SOURCE" refId="73"/>    
+    <end type="TARGET" refId="75"/>  
+  </realization>  
+  <association id="211">    
+    <end type="SOURCE" refId="39" navigable="false">      
+      <attribute id="212" name="mService">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="213" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="88" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="214">    
+    <bendpoint x="2413" y="543"/>    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="215" name="cancelData">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="216" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="217">    
+    <bendpoint x="8222" y="543"/>    
+    <bendpoint x="7480" y="887"/>    
+    <bendpoint x="7480" y="2059"/>    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="218" name="list">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="219" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="68" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="220">    
+    <bendpoint x="8325" y="2059"/>    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="221" name="member">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="222" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="52" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="223">    
+    <end type="SOURCE" refId="56"/>    
+    <end type="TARGET" refId="71"/>  
+  </dependency>  
+  <realization id="224">    
+    <end type="SOURCE" refId="90"/>    
+    <end type="TARGET" refId="84"/>  
+  </realization>  
+  <dependency id="225">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="46"/>  
+  </dependency>  
+  <dependency id="226">    
+    <bendpoint x="12129" y="887"/>    
+    <bendpoint x="12129" y="2059"/>    
+    <end type="SOURCE" refId="82"/>    
+    <end type="TARGET" refId="72"/>  
+  </dependency>  
+  <dependency id="227">    
+    <bendpoint x="4720" y="543"/>    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="75"/>  
+  </dependency>  
+  <realization id="228">    
+    <end type="SOURCE" refId="45"/>    
+    <end type="TARGET" refId="44"/>  
+  </realization>  
+  <association id="229">    
+    <end type="SOURCE" refId="43" navigable="false">      
+      <attribute id="230" name="pService">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="231" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="86" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="232">    
+    <bendpoint x="4511" y="2059"/>    
+    <bendpoint x="4511" y="2565"/>    
+    <end type="SOURCE" refId="45"/>    
+    <end type="TARGET" refId="81"/>  
+  </dependency>  
+  <association id="233">    
+    <bendpoint x="3333" y="543"/>    
+    <bendpoint x="3021" y="887"/>    
+    <bendpoint x="3021" y="2059"/>    
+    <end type="SOURCE" refId="41" navigable="false">      
+      <attribute id="234" name="shop">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="235" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="67" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="236">    
+    <end type="SOURCE" refId="73"/>    
+    <end type="TARGET" refId="49"/>  
+  </dependency>  
+  <association id="237">    
+    <bendpoint x="7159" y="543"/>    
+    <bendpoint x="7159" y="887"/>    
+    <bendpoint x="7117" y="2059"/>    
+    <bendpoint x="7117" y="2565"/>    
+    <end type="SOURCE" refId="41" navigable="false">      
+      <attribute id="238" name="mem">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="239" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="65" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="240">    
+    <bendpoint x="10259" y="887"/>    
+    <bendpoint x="10259" y="2059"/>    
+    <bendpoint x="10259" y="2565"/>    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="65"/>  
+  </dependency>  
+  <dependency id="241">    
+    <bendpoint x="2774" y="543"/>    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="242">    
+    <bendpoint x="6848" y="887"/>    
+    <bendpoint x="6838" y="2059"/>    
+    <end type="SOURCE" refId="83"/>    
+    <end type="TARGET" refId="68"/>  
+  </dependency>  
+  <realization id="243">    
+    <end type="SOURCE" refId="62"/>    
+    <end type="TARGET" refId="53"/>  
+  </realization>  
+  <association id="244">    
+    <end type="SOURCE" refId="37" navigable="false">      
+      <attribute id="245" name="postWriter">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="246" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="76" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="247">    
+    <end type="SOURCE" refId="53"/>    
+    <end type="TARGET" refId="81"/>  
+  </dependency>  
+  <dependency id="248">    
+    <end type="SOURCE" refId="33"/>    
+    <end type="TARGET" refId="60"/>  
+  </dependency>  
+  <association id="249">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="250" name="client">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="251" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="252">    
+    <end type="SOURCE" refId="34"/>    
+    <end type="TARGET" refId="67"/>  
+  </dependency>  
+  <realization id="253">    
+    <end type="SOURCE" refId="51"/>    
+    <end type="TARGET" refId="53"/>  
+  </realization>  
+  <realization id="254">    
+    <end type="SOURCE" refId="86"/>    
+    <end type="TARGET" refId="85"/>  
+  </realization>  
+  <dependency id="255">    
+    <bendpoint x="8325" y="2565"/>    
+    <end type="SOURCE" refId="87"/>    
+    <end type="TARGET" refId="65"/>  
+  </dependency>  
+  <dependency id="256">    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="67"/>  
+  </dependency>  
+  <association id="257">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="258" name="mService">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="259" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="88" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="260">    
+    <end type="SOURCE" refId="46"/>    
+    <end type="TARGET" refId="53"/>  
+  </realization>  
+  <dependency id="261">    
+    <end type="SOURCE" refId="41"/>    
+    <end type="TARGET" refId="90"/>  
+  </dependency>  
+  <association id="262">    
+    <bendpoint x="3312" y="543"/>    
+    <bendpoint x="3419" y="887"/>    
+    <bendpoint x="3677" y="2059"/>    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="263" name="p">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="264" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="69" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="265">    
+    <bendpoint x="5482" y="2059"/>    
+    <bendpoint x="5482" y="2565"/>    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="81"/>  
+  </dependency>  
+  <dependency id="266">    
+    <bendpoint x="6557" y="2059"/>    
+    <end type="SOURCE" refId="49"/>    
+    <end type="TARGET" refId="68"/>  
+  </dependency>  
+  <dependency id="267">    
+    <bendpoint x="4179" y="887"/>    
+    <bendpoint x="3717" y="2059"/>    
+    <end type="SOURCE" refId="90"/>    
+    <end type="TARGET" refId="67"/>  
+  </dependency>  
+  <association id="268">    
+    <bendpoint x="4780" y="887"/>    
+    <end type="SOURCE" refId="90" navigable="false">      
+      <attribute id="269" name="shopDao">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="270" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="44" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="271">    
+    <bendpoint x="7138" y="2565"/>    
+    <end type="SOURCE" refId="59"/>    
+    <end type="TARGET" refId="81"/>  
+  </dependency>  
+  <dependency id="272">    
+    <bendpoint x="4118" y="2565"/>    
+    <end type="SOURCE" refId="46"/>    
+    <end type="TARGET" refId="81"/>  
+  </dependency>  
+  <dependency id="273">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="48"/>  
+  </dependency>  
+  <association id="274">    
+    <bendpoint x="4511" y="887"/>    
+    <end type="SOURCE" refId="40" navigable="false">      
+      <attribute id="275" name="resDao">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="276" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="44" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="277">    
+    <bendpoint x="4137" y="2059"/>    
+    <end type="SOURCE" refId="84"/>    
+    <end type="TARGET" refId="67"/>  
+  </dependency>  
+  <dependency id="278">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="61"/>  
+  </dependency>  
+  <dependency id="279">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="59"/>  
+  </dependency>  
+  <dependency id="280">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <association id="281">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="282" name="pService">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="283" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="86" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="284">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="285" name="pList">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="286" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="74" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="287">    
+    <end type="SOURCE" refId="59"/>    
+    <end type="TARGET" refId="68"/>  
+  </dependency>  
+  <dependency id="288">    
+    <end type="SOURCE" refId="74"/>    
+    <end type="TARGET" refId="49"/>  
+  </dependency>  
+  <realization id="289">    
+    <end type="SOURCE" refId="59"/>    
+    <end type="TARGET" refId="53"/>  
+  </realization>  
+  <dependency id="290">    
+    <bendpoint x="6077" y="2059"/>    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="68"/>  
+  </dependency>  
+  <dependency id="291">    
+    <end type="SOURCE" refId="89"/>    
+    <end type="TARGET" refId="49"/>  
+  </dependency>  
+  <association id="292">    
+    <bendpoint x="6880" y="2059"/>    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="293" name="s">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="294" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="67" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="295">    
+    <end type="SOURCE" refId="76"/>    
+    <end type="TARGET" refId="75"/>  
+  </realization>  
+  <dependency id="296">    
+    <bendpoint x="5377" y="2565"/>    
+    <end type="SOURCE" refId="61"/>    
+    <end type="TARGET" refId="65"/>  
+  </dependency>  
+  <realization id="297">    
+    <end type="SOURCE" refId="88"/>    
+    <end type="TARGET" refId="87"/>  
+  </realization>  
+  <association id="298">    
+    <bendpoint x="4385" y="2059"/>    
+    <end type="SOURCE" refId="38" navigable="false">      
+      <attribute id="299" name="dao">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="300" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="53" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="301">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="78"/>  
+  </dependency>  
+  <association id="302">    
+    <bendpoint x="9563" y="887"/>    
+    <bendpoint x="9563" y="2059"/>    
+    <bendpoint x="9563" y="2565"/>    
+    <end type="SOURCE" refId="39" navigable="false">      
+      <attribute id="303" name="m">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="304" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="65" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="305">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <realization id="306">    
+    <end type="SOURCE" refId="83"/>    
+    <end type="TARGET" refId="75"/>  
+  </realization>  
+  <dependency id="307">    
+    <bendpoint x="5398" y="2059"/>    
+    <bendpoint x="5398" y="2565"/>    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="65"/>  
+  </dependency>  
+  <dependency id="308">    
+    <end type="SOURCE" refId="47"/>    
+    <end type="TARGET" refId="69"/>  
+  </dependency>  
+  <dependency id="309">    
+    <end type="SOURCE" refId="51"/>    
+    <end type="TARGET" refId="67"/>  
+  </dependency>  
+  <dependency id="310">    
+    <bendpoint x="7480" y="2565"/>    
+    <end type="SOURCE" refId="47"/>    
+    <end type="TARGET" refId="81"/>  
+  </dependency>  
+  <dependency id="311">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="88"/>  
+  </dependency>  
+  <dependency id="312">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="48"/>  
+  </dependency>  
+  <dependency id="313">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <association id="314">    
+    <bendpoint x="12089" y="887"/>    
+    <end type="SOURCE" refId="82" navigable="false">      
+      <attribute id="315" name="dao">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="316" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="55" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="317">    
+    <bendpoint x="10071" y="887"/>    
+    <bendpoint x="10071" y="2059"/>    
+    <bendpoint x="10071" y="2565"/>    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="318" name="m">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="319" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="65" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="320">    
+    <end type="SOURCE" refId="55"/>    
+    <end type="TARGET" refId="72"/>  
+  </dependency>  
+  <association id="321">    
+    <end type="SOURCE" refId="25" navigable="false">      
+      <attribute id="322" name="mService">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="323" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="88" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="324">    
+    <bendpoint x="12341" y="543"/>    
+    <bendpoint x="12341" y="887"/>    
+    <bendpoint x="12341" y="2059"/>    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="325" name="menu">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="326" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="72" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="327">    
+    <bendpoint x="9500" y="887"/>    
+    <bendpoint x="9500" y="2059"/>    
+    <end type="SOURCE" refId="35" navigable="false">      
+      <attribute id="328" name="dto">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="329" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="71" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="330">    
+    <bendpoint x="2622" y="543"/>    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="331" name="payment">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="332" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="333">    
+    <bendpoint x="8243" y="543"/>    
+    <bendpoint x="8222" y="887"/>    
+    <bendpoint x="7780" y="2059"/>    
+    <bendpoint x="7780" y="2565"/>    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="334" name="paging">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="335" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="81" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="336">    
+    <bendpoint x="4469" y="2059"/>    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="337" name="dao">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="338" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="53" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="339">    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="51"/>  
+  </dependency>  
+  <dependency id="340">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="54"/>  
+  </dependency>  
+  <association id="341">    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="342" name="mService">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="343" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="88" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="344">    
+    <end type="SOURCE" refId="83"/>    
+    <end type="TARGET" refId="49"/>  
+  </dependency>  
+  <dependency id="345">    
+    <bendpoint x="5338" y="2565"/>    
+    <end type="SOURCE" refId="61"/>    
+    <end type="TARGET" refId="81"/>  
+  </dependency>  
+  <realization id="346">    
+    <end type="SOURCE" refId="48"/>    
+    <end type="TARGET" refId="52"/>  
+  </realization>  
+  <dependency id="347">    
+    <bendpoint x="7389" y="887"/>    
+    <bendpoint x="7159" y="2059"/>    
+    <end type="SOURCE" refId="74"/>    
+    <end type="TARGET" refId="68"/>  
+  </dependency>  
+  <dependency id="348">    
+    <bendpoint x="692" y="2190"/>    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="81"/>  
+  </dependency>  
+  <dependency id="349">    
+    <bendpoint x="4699" y="543"/>    
+    <bendpoint x="4885" y="887"/>    
+    <bendpoint x="5719" y="2059"/>    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="68"/>  
+  </dependency>  
+  <dependency id="350">    
+    <bendpoint x="3042" y="2059"/>    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="67"/>  
+  </dependency>  
+  <dependency id="351">    
+    <bendpoint x="4761" y="2565"/>    
+    <end type="SOURCE" refId="44"/>    
+    <end type="TARGET" refId="81"/>  
+  </dependency>  
+  <dependency id="352">    
+    <end type="SOURCE" refId="76"/>    
+    <end type="TARGET" refId="88"/>  
+  </dependency>  
+  <dependency id="353">    
+    <bendpoint x="4116" y="2059"/>    
+    <end type="SOURCE" refId="85"/>    
+    <end type="TARGET" refId="69"/>  
+  </dependency>  
+  <dependency id="354">    
+    <bendpoint x="8243" y="887"/>    
+    <end type="SOURCE" refId="74"/>    
+    <end type="TARGET" refId="48"/>  
+  </dependency>  
+  <association id="355">    
+    <bendpoint x="4011" y="543"/>    
+    <end type="SOURCE" refId="41" navigable="false">      
+      <attribute id="356" name="shopService">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="357" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="84" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="358">    
+    <bendpoint x="4469" y="887"/>    
+    <bendpoint x="4448" y="2059"/>    
+    <bendpoint x="4448" y="2565"/>    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="81"/>  
+  </dependency>  
+  <dependency id="359">    
+    <bendpoint x="3440" y="887"/>    
+    <bendpoint x="3440" y="2059"/>    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="67"/>  
+  </dependency>  
+  <dependency id="360">    
+    <end type="SOURCE" refId="57"/>    
+    <end type="TARGET" refId="67"/>  
+  </dependency>  
+  <association id="361">    
+    <bendpoint x="5740" y="2059"/>    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="362" name="dao">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="363" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="53" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="364">    
+    <bendpoint x="7660" y="543"/>    
+    <bendpoint x="7347" y="887"/>    
+    <bendpoint x="7138" y="2059"/>    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="68"/>  
+  </dependency>  
+  <dependency id="365">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="74"/>  
+  </dependency>  
+  <dependency id="366">    
+    <end type="SOURCE" refId="46"/>    
+    <end type="TARGET" refId="67"/>  
+  </dependency>  
+  <association id="367">    
+    <bendpoint x="9103" y="2059"/>    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="368" name="mm">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="369" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="52" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="370">    
+    <bendpoint x="4200" y="887"/>    
+    <bendpoint x="4427" y="2059"/>    
+    <bendpoint x="4469" y="2565"/>    
+    <end type="SOURCE" refId="86"/>    
+    <end type="TARGET" refId="65"/>  
+  </dependency>  
+  <association id="371">    
+    <bendpoint x="4741" y="543"/>    
+    <bendpoint x="4864" y="887"/>    
+    <bendpoint x="5440" y="2059"/>    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="372" name="dao">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="373" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="53" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="374">    
+    <end type="SOURCE" refId="35" navigable="false">      
+      <attribute id="375" name="Service">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="376" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="88" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="377">    
+    <bendpoint x="8786" y="2565"/>    
+    <end type="SOURCE" refId="48"/>    
+    <end type="TARGET" refId="65"/>  
+  </dependency>  
+  <dependency id="378">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="77"/>  
+  </dependency>  
+  <dependency id="379">    
+    <end type="SOURCE" refId="78"/>    
+    <end type="TARGET" refId="49"/>  
+  </dependency>  
+  <dependency id="380">    
+    <end type="SOURCE" refId="80"/>    
+    <end type="TARGET" refId="67"/>  
+  </dependency>  
+  <association id="381">    
+    <bendpoint x="4678" y="543"/>    
+    <bendpoint x="4490" y="887"/>    
+    <bendpoint x="4364" y="2059"/>    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="382" name="shop">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="383" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="67" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="384">    
+    <bendpoint x="6756" y="2565"/>    
+    <end type="SOURCE" refId="62"/>    
+    <end type="TARGET" refId="81"/>  
+  </dependency>  
+  <dependency id="385">    
+    <end type="SOURCE" refId="36"/>    
+    <end type="TARGET" refId="67"/>  
+  </dependency>  
+  <dependency id="386">    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="45"/>  
+  </dependency>  
+  <dependency id="387">    
+    <end type="SOURCE" refId="82"/>    
+    <end type="TARGET" refId="58"/>  
+  </dependency>  
+  <dependency id="388">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="79"/>  
+  </dependency>  
+  <realization id="389">    
+    <end type="SOURCE" refId="61"/>    
+    <end type="TARGET" refId="53"/>  
+  </realization>  
+  <dependency id="390">    
+    <end type="SOURCE" refId="62"/>    
+    <end type="TARGET" refId="68"/>  
+  </dependency>  
+  <dependency id="391">    
+    <bendpoint x="4657" y="543"/>    
+    <bendpoint x="4843" y="887"/>    
+    <bendpoint x="4843" y="2059"/>    
+    <end type="SOURCE" refId="41"/>    
+    <end type="TARGET" refId="66"/>  
+  </dependency>  
+  <association id="392">    
+    <bendpoint x="2434" y="543"/>    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="393" name="cancelPayment">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="394" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="395">    
+    <bendpoint x="3738" y="2059"/>    
+    <end type="SOURCE" refId="50"/>    
+    <end type="TARGET" refId="69"/>  
+  </dependency>  
+  <dependency id="396">    
+    <end type="SOURCE" refId="44"/>    
+    <end type="TARGET" refId="66"/>  
+  </dependency>  
+  <dependency id="397">    
+    <bendpoint x="8807" y="2059"/>    
+    <bendpoint x="8807" y="2565"/>    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="65"/>  
+  </dependency>  
+  <dependency id="398">    
+    <bendpoint x="6859" y="2059"/>    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="69"/>  
+  </dependency>  
+  <dependency id="399">    
+    <end type="SOURCE" refId="36"/>    
+    <end type="TARGET" refId="80"/>  
+  </dependency>  
+  <association id="400">    
+    <bendpoint x="8264" y="543"/>    
+    <bendpoint x="8264" y="887"/>    
+    <bendpoint x="8283" y="2059"/>    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="401" name="member">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="402" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="52" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="403">    
+    <end type="SOURCE" refId="78"/>    
+    <end type="TARGET" refId="75"/>  
+  </realization>  
+  <dependency id="404">    
+    <end type="SOURCE" refId="60"/>    
+    <end type="TARGET" refId="69"/>  
+  </dependency>  
+  <association id="405">    
+    <bendpoint x="8786" y="2059"/>    
+    <end type="SOURCE" refId="88" navigable="false">      
+      <attribute id="406" name="mMember">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="407" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="52" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="408">    
+    <end type="SOURCE" refId="52"/>    
+    <end type="TARGET" refId="65"/>  
+  </dependency>  
+  <association id="409">    
+    <bendpoint x="9521" y="887"/>    
+    <bendpoint x="9521" y="2059"/>    
+    <bendpoint x="9521" y="2565"/>    
+    <end type="SOURCE" refId="29" navigable="false">      
+      <attribute id="410" name="m">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="411" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="65" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="412">    
+    <bendpoint x="7618" y="543"/>    
+    <bendpoint x="7138" y="887"/>    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="62"/>  
+  </dependency>  
+  <dependency id="413">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="89"/>  
+  </dependency>  
+  <association id="414">    
+    <bendpoint x="6161" y="2059"/>    
+    <end type="SOURCE" refId="33" navigable="false">      
+      <attribute id="415" name="dao">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="416" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="53" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
